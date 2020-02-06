@@ -1,24 +1,26 @@
 body {
-	background-color: #E4CECE;
-	font-family: 'Roboto', sans-serif;
+	background-color: #DEDEDE;
+	font: 1em 'Roboto', sans-serif;
 }
 
-h1 {
+h1, h2, h3 {
 	font-family: 'Catamaran', sans-serif;
 }
 
-h2 {
-
-}
-
-h3 {
-
-}
-
 a, a:visited {
-
+	text-decoration: none; 
+	color: #0091A9;
 }
 
 a:hover {
+	font-weight: bold; 
+	text-decoration: none; 
+	color: #0091A9;
+}
 
+img {
+-ms-transform: rotate(90deg); /* IE 9 */
+-webkit-transform: rotate(90deg); /* Chrome, Safari, Opera */
+transform: rotate(90deg);
+padding: 3em;
 }
