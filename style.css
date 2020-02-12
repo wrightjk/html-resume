@@ -1,15 +1,15 @@
 html {
-	background-image: url("building.jpg");
+	background-image: url("copenhagen.jpg");
 	background-repeat: no-repeat;
-	background-size: 4500px 3000px;
 }
 
 body {
 	text-align: justify;
-	background-color: #DEDEDE;
-	opacity: 0.8;
+	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
+	background: rgba(255, 255, 255, 0.8);
 	font: 1em 'Roboto', Arial, sans-serif;
 	padding: 50px;
+	color: #303B4D;
 }
 
 textarea {
@@ -17,19 +17,20 @@ textarea {
 }
 
 h1, h2, h3 {
+	color: #954B46;
 	font-family: 'Catamaran', sans-serif;
 	letter-spacing: 8px;
 }
 
 a, a:visited {
 	text-decoration: none; 
-	color: #0091A9;
+	color: #79BEFF;
 }
 
 a:hover {
 	font-weight: bold; 
 	text-decoration: none; 
-	color: #0091A9;
+	color: #954B46;
 }
 
 ul {
