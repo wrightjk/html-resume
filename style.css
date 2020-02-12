@@ -1,10 +1,24 @@
+html {
+	background-image: url("building.jpg");
+	background-repeat: no-repeat;
+	background-size: 4500px 3000px;
+}
+
 body {
+	text-align: justify;
 	background-color: #DEDEDE;
-	font: 1em 'Roboto', sans-serif;
+	opacity: 0.8;
+	font: 1em 'Roboto', Arial, sans-serif;
+	padding: 50px;
+}
+
+textarea {
+	height: auto;
 }
 
 h1, h2, h3 {
 	font-family: 'Catamaran', sans-serif;
+	letter-spacing: 8px;
 }
 
 a, a:visited {
@@ -19,7 +33,10 @@ a:hover {
 }
 
 ul {
-	
+	list-style-image: url(square.png);
+	list-style-position: inside;
+	margin: 0;
+	padding: 0;
 }
 
 img {
