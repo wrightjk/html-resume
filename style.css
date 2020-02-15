@@ -1,20 +1,35 @@
-html {
-	background: url('Copenhagen.jpg');
-	background-repeat: no-repeat;
-}
-
 body {
 	text-align: justify;
-	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
-	background: rgba(255, 255, 255, 0.8);
 	font: 1em 'Roboto', Arial, sans-serif;
-	padding: 50px;
 	color: #303B4D;
+	background: url('Copenhagen.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
-textarea {
-	height: auto;
+.org {
+	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
+	background: rgba(255, 255, 255, 0.95);
+	padding: 15px;
+	margin-left:180px;
+	
+	
 }
+
+.floatRight {
+	float: right;
+	margin-left: 10px;
+}
+
+#container {
+	height: auto;
+	width: 80%;
+}
+
+#content {
+	
+}
+
 
 h1, h2, h3 {
 	color: #954B46;
