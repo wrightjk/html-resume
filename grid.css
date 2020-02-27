@@ -1,0 +1,50 @@
+/* overall layout */
+#container {
+	display: grid;
+	grid-template-rows: 120px 4fr;
+	grid-template-columns: 1fr 3fr 1fr;
+}
+
+/* setting rows/columns with grid line numbers */
+#one {
+	grid-row-start: 1;
+	grid-row-end: 2;
+	grid-column-start: 1;
+	grid-column-end: 4;
+}
+
+#two {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 1;
+	grid-column-end: 2;
+	/* opaque background and layout */
+	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
+	background: rgba(255, 255, 255, 0.95);
+	padding: 15px;
+	margin-left:180px;
+}
+
+#three {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 2;
+	grid-column-end: 3;
+	/* opaque background and layout */
+	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
+	background: rgba(255, 255, 255, 0.95);
+	padding: 15px;
+	margin-left: 45px;
+}
+
+#four {
+	grid-row-start: 2;
+	grid-row-end: 3;
+	grid-column-start: 3;
+	grid-column-end: 4;
+	/* opaque background and layout */
+	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
+	background: rgba(255, 255, 255, 0.95);
+	padding: 15px;
+	margin-left: 45px;
+}

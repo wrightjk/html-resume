@@ -7,13 +7,11 @@ body {
 	background-size: cover;
 }
 
-.org {
-	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
+/* .org {
+	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba 
 	background: rgba(255, 255, 255, 0.95);
 	padding: 15px;
 	margin-left:180px;
-	
-	
 }
 
 .floatRight {
@@ -24,13 +22,17 @@ body {
 #container {
 	height: auto;
 	width: 80%;
-}
+} */
 
 
 h1, h2, h3 {
 	color: #954B46;
 	font-family: 'Catamaran', sans-serif;
 	letter-spacing: 8px;
+}
+
+h1 {
+	text-align: center;
 }
 
 a, a:visited {
