@@ -5,6 +5,8 @@ body {
 	background: url('Copenhagen.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
+	margin-left: 90px;
+	margin-right: 90px;
 }
 
 /* .org {
