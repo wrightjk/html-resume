@@ -1,7 +1,7 @@
 /* overall layout */
 #container {
 	display: grid;
-	grid-template-rows: 120px 1fr;
+	grid-template-rows: 120px 1fr 1fr 1fr 1fr 1fr;
 	grid-template-columns: 1fr 3fr 1fr;
 }
 
@@ -27,7 +27,7 @@
 
 #three {
 	grid-row-start: 2;
-	grid-row-end: 3;
+	grid-row-end: 7;
 	grid-column-start: 2;
 	grid-column-end: 3;
 	/* opaque background and layout */
@@ -39,7 +39,7 @@
 
 #four {
 	grid-row-start: 2;
-	grid-row-end: 3;
+	grid-row-end: 4;
 	grid-column-start: 3;
 	grid-column-end: 4;
 	/* opaque background and layout */
