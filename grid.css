@@ -48,3 +48,11 @@
 	padding-top: 45px;
 	margin-left: 45px;
 }
+
+/* Creating flex layout for content */
+#flex {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
