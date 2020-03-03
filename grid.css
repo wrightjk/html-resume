@@ -45,6 +45,6 @@
 	/* opaque background and layout */
 	background: rgba(255, 255, 255); /* fallback for browsers not supporting rgba */
 	background: rgba(255, 255, 255, 0.95);
-	padding: 15px;
+	padding-top: 45px;
 	margin-left: 45px;
 }
